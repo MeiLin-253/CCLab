@@ -28,6 +28,7 @@ function setup() {
     targetClr = color(255, 244, 224);
 
     resetParticles(10000);
+
 }
 
 function mousePressed() {
