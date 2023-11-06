@@ -7,8 +7,8 @@ let moveParticles = [];
 let raD = 150;
 let angle = 0;
 function setup() {
-    let canvas = createCanvas(600, 600);
-    canvas.parent("canvasWrapper");
+    createCanvas(600, 600);
+
     background(200);
     for (let i = 0; i < NUM_OF_PARTICLES; i++) {
         let angle = (TWO_PI / 500) * i;
