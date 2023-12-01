@@ -63,17 +63,17 @@ body {
   background-color: #F1F0E9;
 }
 
-.main-container {
-  display: flex;
-  height: auto;
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+#canvas-container {
+  height: 100%;
+  width: 100%;
 }
 
-.interface-container {
-  background-color: gray;
+#interface-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
 
   display: flex;
   justify-content: center;
@@ -386,6 +386,10 @@ body {
   margin-top: 300px;
   margin-bottom: 55px;
   padding: 10px;
+}
+
+#text-box {
+  width: 500px;
 }
 
 /* FLEXBOX PROPERTIES */
