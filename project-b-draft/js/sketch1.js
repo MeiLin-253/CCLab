@@ -5,7 +5,8 @@ let vol;
 let ypos;
 
 function setup() {
-  createCanvas(800, 600);
+  let canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("canvas-container");
   mic = new p5.AudioIn();
   mic.start();
 }
