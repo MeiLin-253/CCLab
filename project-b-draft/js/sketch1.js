@@ -15,9 +15,9 @@ function draw() {
   if (random(1) < 0.08) {
     circles[circles.length] = new Circle();
   }
-  if (circles.length > number) {
-    circles.splice(0, 1);
-  }
+  // if (circles.length > number) {
+  // circles.splice(0, 1);
+  // }
   background(255, 80);
   vol = mic.getLevel();
   console.log(vol);
@@ -107,24 +107,15 @@ class Circle {
     this.y += this.ySpd;
   }
   changeColor() {
-    this.clr = lerpColor(this.clr, this.targetClr, 0.02);
+    this.clr = lerpColor(this.clr, this.targetClr, 0.05);
   }
   checkMouse() {
     //let ypos = map(dist, 0, this.dia, -50, 50);
-    if (this.distance < this.dia) {
-      circles.splice(0, 2);
-    } else if (this.distance < this.dia + 50) {
-      //this.targetClr = color(0, 255, 0);
-      this.ypos = map(this.distance, 0, 50, 0, this.dia / 20);
+    if (this.distance < this.dia && mouseIsPressed) {
+      //circles.splice(0, 1);
     } else if (this.distance < this.dia + 100) {
-      // this.targetClr = color(0, 255, 0);
       this.targetClr = color(0, 255, 0);
-      this.ypos = map(this.distance, 0, 100, -this.dia / 20, 0);
-      // this.centerX = this.x;
-      // this.centerY = this.y;
-      // this.startArc = PI/6 ;
-      // this.endArc =  PI*5/6;
-      // let ypos = map(dist, 0, this.dia, -50, 50);
+      this.ypos = map(this.distance, 0, this.dia + 100, this.dia / 10, -this.dia / 10);
     }
   }
 }

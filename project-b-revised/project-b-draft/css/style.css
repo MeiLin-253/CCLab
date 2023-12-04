@@ -1,0 +1,403 @@
+html,
+body {
+  height: 100%;
+}
+
+body,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: x-large;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+}
+
+h3 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container-landing-page {
+  width: 100%;
+  height: 100%;
+
+  /* Explore more with the flexbox properties! */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.head {
+  background-color: #96B6C5;
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.description {
+  background-color: #ACC4CF;
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+body {
+  background-color: #F1F0E9;
+}
+
+#canvas-container {
+  height: 100%;
+  width: 100%;
+}
+
+#interface-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.navigation-bar {
+  background-color: cornsilk;
+  display: flex;
+}
+
+.flex-container-01 {
+  display: flex
+}
+
+.box-01-left {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-01-right {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -40px;
+  margin-right: -20px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-01 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  margin-left: -20px;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.flex-container-02 {
+  display: flex
+}
+
+.box-02 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: -20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-02-left {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-02-right {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -20px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.flex-container-03 {
+  display: flex
+}
+
+.box-03-left {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: -20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-03-right {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-03 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  margin-left: -20px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.flex-container-04 {
+  display: flex
+}
+
+.box-04 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: -20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-04-left {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.box-04-right {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: -20px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.flex-container-05 {
+  display: flex;
+}
+
+.box-05 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.box-05-right {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 75px;
+  margin-bottom: 45px;
+  padding: 10px;
+}
+
+.box-05-right-bottom {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: auto;
+  margin-top: 380px;
+  margin-bottom: 55px;
+  padding: 10px;
+}
+
+.flex-container-06 {
+  display: flex;
+}
+
+.box-06 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.box-06-left {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  padding: 10px;
+}
+
+.box-06-left-bottom {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: 55px;
+  padding: 10px;
+}
+
+
+.flex-container-07 {
+  display: flex;
+}
+
+.box-07 {
+  background-color: #96B6C5;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.box-07-right {
+  background-color: #ACC4CF;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin-left: -30px;
+  margin-right: -10px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  padding: 10px;
+}
+
+.box-07-right-bottom {
+  background-color: #EEDFC9;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: 55px;
+  padding: 10px;
+}
+
+#text-box {
+  width: 500px;
+}
+
+/* FLEXBOX PROPERTIES */
+/* 
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+*/
