@@ -433,6 +433,10 @@ body {
   padding: 10px;
 }
 
+.bottom {
+  padding: 25px;
+}
+
 #text-box {
   width: 400px;
 }

@@ -83,7 +83,7 @@ class Circle {
     constructor(circleColor, circleText) {
         this.x = random(width);
         this.y = random(height);
-        this.radius = random(40, 80);
+        this.radius = random(45, 80);
         this.xSpeed = random(-1.5, 1.5);
         this.ySpeed = random(-1.5, 1.5);
         this.color = circleColor;
@@ -108,9 +108,10 @@ class Circle {
         noStroke();
         ellipse(this.x, this.y, this.radius * 2, this.radius * 2);
 
-        fill(255);
-        strokeWeight(10);
+        fill(245);
+        strokeWeight(8);
         textAlign(CENTER);
+        textSize(20);
         text(this.text, this.x, this.y);
     }
 }
