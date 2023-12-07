@@ -37,7 +37,7 @@ class Circle {
     this.x = random(width);
     this.y = random(height);
     vol = mic.getLevel();
-    this.dia = map(vol, 0, 1, 50, 500);
+    this.dia = map(vol, 0, 1, 50, 800);
     this.clr = color(255, 0, 0);
     this.targetClr = color(255, 0, 0);
     this.xSpd = random(-0.5, 0.5);
